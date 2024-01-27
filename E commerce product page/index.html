@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Multi vitamin Sunscreen </title>
+</head>
+<body>
+    <div class="menu">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <div class="container">
+    <header class="inner-header">
+        <div class="main-header"><h1>Sunscreen</h1>
+        <nav class="main-nav">
+            <ul class="right-nav">
+                <li><a href="#price">PRICING</a></li>
+                <li><a href="#special">SPECIALITY</a></li>
+                <li><a href="#use">USAGE</a></li>
+                <li><a href="#ing">INGREDIENTS</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#" onclick="showCart()"><i class="fa-solid fa-cart-shopping "></i>
+                    <span class="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    
+    <section class="info">
+        <div class="image">
+            <img class="large-img" src="sunscreen.jpg" width="500px" height="700px">
+            <div class="small-img">
+                <img src="sunscreen.jpg" width="150px" height="150px" onclick="changeImage('sunscreen.jpg')">
+                <img src="backimg.jpg" width="150px" height="150px" onclick="changeImage('backimg.jpg')">
+            </div>
+        </div>
+        <div class="info-sunscreen">
+            <h1>SPF 50 SUNSCREEN </h1>
+            <h4>Broad spectrum SPF 50,PA++</h4>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>100 Reviews</p>
+            <p>Introducing our exceptional 2-in-1 SunCare Fusion - the perfect blend of hydration and sun protection! This innovative formula seamlessly combines a lightweight moisturizer with a powerful broad-spectrum SPF 50 and PA++++ rating. Experience the sheer delight of a non-greasy texture that effortlessly glides on, leaving your skin with a velvety finish and a radiant, natural glow.</p>
+            <ul id="price">
+                <li>Fragrance free</li>
+                <li>non-comedogenic</li>
+                <li>Parabeans free</li>
+                <li>50g</li>
+            </ul>
+            <h3>5.50$</h3>
+            <p class="price">30% Off</p>
+            <button class="btn" onclick="addToCart()">Add to cart</button>
+        </div>
+       
+    </section>
+
+    <section class="special" id="special">
+        <h2>What's so special in it?</h2>
+        <ul class="spl">
+            <li class="spl1">
+                <img src="skinimg1.jpg"><br/> 
+                Who is it for<br/>
+                <ul>
+                    <li>suitable for all</li>
+                </ul>
+            </li>
+            <li class="spl1">
+                <img src="skinimg2.jpg"><br/>
+                BENEFITS<br/>
+                <ul>
+                    <li>Provides UVA,UVB protection</li>
+                    <li>Enhances skin glow</li>
+                    <li>Better vitamin D absorption</li>
+                </ul>
+            </li>
+            <li class="spl1">
+                <img src="skinimg3.png"><br/>
+                Results in<br/>
+                <ul>
+                    <li>Even toned skin</li>
+                    <li>Glowing skin</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="usage-ing">
+        <div class="usage" id="use">
+        <h2>How to use?</h2>
+        <p>Apply on cleansed face after all your serums and moisturisers. Apply generously & evenly on your face and neck. Apply sunscreen at least 15 minutes before sun exposure. For added protection, reapply in case of continued sun exposure, swimming, perspiring or towel drying.</p>
+        <h4>When to use</h4>
+        <p>AM.Everyday</p>
+        </div>
+        <span class="span"></span>
+        <div class="ing" id="ing">
+        <h2>Ingredients</h2>
+        <p>Aqua, Ethylhexyl Methoxycinnamate, Butyl Methoxydibenzoylmethane, Benzophenone-3, Phospholipids Tocopheryl Acetate, Menthyl Lactate, Oxothiazolidine, Phenoxyethanol, Sodium Benzoate, Sodium Hydroxide, Sodium Gluconate, Sodium Hyaluronate..</p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer1">
+            <ul>
+                <li><a href="#">Terms & condition</a></li>
+                <li><a href="#">Privcacy policy</a></li>
+                <li><a href="#">Track order</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li>Folllow us: 
+                    <ul>
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    </div>
+    <script src="index.js"></script>
+     
+</body>
+</html>
